@@ -1,0 +1,132 @@
+/* Тема для Coop-Land.ru
+ * by HeadShot2Yourself
+ * https://coop-land.ru/user/HeadShot2Yourself/ 
+*/
+ /* Фончики */
+/* Главный фон */
+body {
+  background-attachment: fixed;
+  background-image: url(https://cdna.artstation.com/p/assets/images/images/017/822/088/large/lincoln-hughes-01.jpg?1557450651);
+  background-position: top center;
+  background-size: cover;
+}
+
+.footer-back {
+    background: url("") no-repeat; 
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: 100%;
+}
+.footer-back {
+    background-color: #15151500;
+    border-top: 0px solid #0000;
+    position: relative;
+    padding-bottom: 65px;
+    padding-top: 40px;
+}
+.header .logo {
+  filter: opacity(1.0) drop-shadow(0 0 0 #0000);
+}
+
+.header,
+.header input:hover,
+.wrapper input:hover,
+.wrapper .slider .scroll-panel .active,
+.wrapper .interesting .game-block img,
+.wrapper .interesting .game-block:hover,
+.wrapper .pagination span:not(.nav_ext),
+.wrapper .most-popular .game-block:hover,
+.wrapper .page-note,
+.wrapper .edit-profile p,
+.wrapper .opponent-module .theme .rating,
+.wrapper .opponent-search-menu li.add-search, .opponent-search-menu li.active{
+  border-color: #00ffe5 !important;
+}
+
+.wrapper .comments-list .comment .message .signature a,
+.wrapper .comments-list .comment .text a,
+.wrapper .full-story-content a:not(.btn) {
+  color: #1e73e9;
+  border-bottom: dotted 1px #0cd0bf;
+}
+.header .top-menu > ul > li:hover,
+.header .top-menu>ul>li>ul,
+.wrapper .scrolling .scroll-bar .scroller,
+.wrapper .full-story .page-rating,
+.wrapper .full-story .full-story-content .add-news-inner:hover,
+.wrapper .news .article .category,
+.wrapper .interesting .game-block .category,
+.wrapper .online_marker,
+.wrapper .opponent-module .theme .rating .vote-button {
+  background: #40b799;
+}
+.wrapper .links a.active,
+.wrapper .links a:hover,
+.wrapper .links a.add-news,
+.wrapper .btn.btn-success {
+  border-color: #52e5e8b8;
+  background: #52e5e885;
+}
+.wrapper .horizontal-slider .container::-webkit-scrollbar-thumb,
+.wrapper .lc_buttons .lc_add,
+.wrapper .pagination a:hover {
+  background-color: #1ee9e6;
+}
+.game-rating .title {
+    color: #00ffae; /* Меняет цвет в таблице рейтинга игр */
+}
+
+/* Цвет текста ссылки */
+a {
+  color: #7feffee0;
+}
+
+/* Цвет ссылки при наведении */
+a:hover {
+  color: #2baeff;
+}
+
+/* Цвет ссылки при нажатии */
+@media only screen and (min-width: 1025px) {
+  a:active {
+    color: #49b6b6;
+  }
+}
+.header #femen-man:hover,
+.header .messages.messages:hover::before,
+.wrapper .sidebar-title,
+.wrapper .sidebar-title .active,
+.wrapper .news .article .preview-text a,
+.wrapper .news .article .title:hover,
+.wrapper .news .article:hover .title,
+.wrapper .news .article .inform-panel .info-author a,
+.wrapper .sidebar-link,
+.wrapper .lc_chat_list .lc_chat_li_text a,
+.footer-back .footer .mobile:hover,
+.footer-back .footer .footer-menu > a:hover,
+.footer-back .footer .coop-block a:hover,
+.wrapper .most-popular > .title,
+.wrapper .wide-block .block-title,
+.wrapper .wide-block h2,
+.wrapper .wide-block h1,
+.wrapper .informer-sidebar-block .informer-article-block a:hover .informer-block-title,
+.wrapper .forum-themes .left-content > a:hover,
+.wrapper .forum-themes .theme-info > a:hover,
+.wrapper .blog-articles .article .blog,
+.wrapper .blog-articles .article .title:hover,
+.wrapper .site-team .person:hover .nickname,
+.wrapper .full-story .full-story-top-panel .categories,
+.footer-back .footer .footer-column-title,
+.wrapper .pagination span:not(.nav_ext),
+.wrapper .hovered-links a:hover,
+.wrapper .text-green, 
+.wrapper .colored-links a,
+.wrapper .page-header,
+.wrapper .opponent-module .theme .information .title,
+.wrapper .opponent-module .parameters>a,
+.wrapper .opponent-module .theme .rating,
+.wrapper .opponent-module .theme .enjoy a,
+.wrapper .opponent-module .theme .information .description .more-link,
+.wrapper .opponent-search-menu li.add-search, .opponent-search-menu li.active {
+  color: #16e5a2;
+}
