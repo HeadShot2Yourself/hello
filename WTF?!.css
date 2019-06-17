@@ -1,0 +1,279 @@
+/* Тема для Coop-Land.ru
+ * by HeadShot2Yourself
+ * https://coop-land.ru/user/HeadShot2Yourself/ 
+*/
+ /* Фончики */
+/* Главный фон */
+body {
+  background-attachment: fixed;
+  background-image: url(https://cdna.artstation.com/p/assets/images/images/017/822/088/large/lincoln-hughes-01.jpg?1557450651);
+  background-position: top center;
+  background-size: cover;
+}
+
+.footer-back {
+    background: url("") no-repeat; 
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: 100%;
+}
+.footer-back {
+    background-color: #15151500;
+    border-top: 0px solid #0000;
+    position: relative;
+    padding-bottom: 65px;
+    padding-top: 40px;
+}
+.header .logo {
+  filter: opacity(1.0) drop-shadow(0 0 0 #0000);
+}
+
+.header,
+.header input:hover,
+.wrapper input:hover,
+.wrapper .slider .scroll-panel .active,
+.wrapper .interesting .game-block img,
+.wrapper .interesting .game-block:hover,
+.wrapper .pagination span:not(.nav_ext),
+.wrapper .most-popular .game-block:hover,
+.wrapper .page-note,
+.wrapper .edit-profile p,
+.wrapper .opponent-module .theme .rating,
+.wrapper .opponent-search-menu li.add-search, .opponent-search-menu li.active{
+  border-color: #00ffe5 !important;
+}
+
+.wrapper .comments-list .comment .message .signature a,
+.wrapper .comments-list .comment .text a,
+.wrapper .full-story-content a:not(.btn) {
+  color: #1e73e9;
+  border-bottom: dotted 1px #0cd0bf;
+}
+.header .top-menu > ul > li:hover,
+.header .top-menu>ul>li>ul,
+.wrapper .scrolling .scroll-bar .scroller,
+.wrapper .full-story .page-rating,
+.wrapper .full-story .full-story-content .add-news-inner:hover,
+.wrapper .news .article .category,
+.wrapper .interesting .game-block .category,
+.wrapper .online_marker,
+.wrapper .opponent-module .theme .rating .vote-button {
+  background: #40b799;
+}
+.wrapper .links a.active,
+.wrapper .links a:hover,
+.wrapper .links a.add-news,
+.wrapper .btn.btn-success {
+  border-color: #52e5e8b8;
+  background: #52e5e885;
+}
+.wrapper .horizontal-slider .container::-webkit-scrollbar-thumb,
+.wrapper .lc_buttons .lc_add,
+.wrapper .pagination a:hover {
+  background-color: #1ee9e6;
+}
+.game-rating .title {
+    color: #00ffae; /* Меняет цвет в таблице рейтинга игр */
+}
+
+/* Цвет текста ссылки */
+a {
+  color: #7feffee0;
+}
+
+/* Цвет ссылки при наведении */
+a:hover {
+  color: #2baeff;
+}
+
+/* Цвет ссылки при нажатии */
+@media only screen and (min-width: 1025px) {
+  a:active {
+    color: #49b6b6;
+  }
+}
+.header #femen-man:hover,
+.header .messages.messages:hover::before,
+.wrapper .sidebar-title,
+.wrapper .sidebar-title .active,
+.wrapper .news .article .preview-text a,
+.wrapper .news .article .title:hover,
+.wrapper .news .article:hover .title,
+.wrapper .news .article .inform-panel .info-author a,
+.wrapper .sidebar-link,
+.wrapper .lc_chat_list .lc_chat_li_text a,
+.footer-back .footer .mobile:hover,
+.footer-back .footer .footer-menu > a:hover,
+.footer-back .footer .coop-block a:hover,
+.wrapper .most-popular > .title,
+.wrapper .wide-block .block-title,
+.wrapper .wide-block h2,
+.wrapper .wide-block h1,
+.wrapper .informer-sidebar-block .informer-article-block a:hover .informer-block-title,
+.wrapper .forum-themes .left-content > a:hover,
+.wrapper .forum-themes .theme-info > a:hover,
+.wrapper .blog-articles .article .blog,
+.wrapper .blog-articles .article .title:hover,
+.wrapper .site-team .person:hover .nickname,
+.wrapper .full-story .full-story-top-panel .categories,
+.footer-back .footer .footer-column-title,
+.wrapper .pagination span:not(.nav_ext),
+.wrapper .hovered-links a:hover,
+.wrapper .text-green, 
+.wrapper .colored-links a,
+.wrapper .page-header,
+.wrapper .opponent-module .theme .information .title,
+.wrapper .opponent-module .parameters>a,
+.wrapper .opponent-module .theme .rating,
+.wrapper .opponent-module .theme .enjoy a,
+.wrapper .opponent-module .theme .information .description .more-link,
+.wrapper .opponent-search-menu li.add-search, .opponent-search-menu li.active {
+  color: #16e5a2;
+}
+/* Цвет окон на главном экране. Если хотите стандартные белые / черные - удалите строки ниже 
+ * Так же тут есть подстветка, тру геймеры оценят ;) 
+ *Да начнется вакханалия! */ 
+.bottom-block {
+    width: 100%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    background-color: #2e866c;
+    box-shadow: 0 0 4px #00ffa6;
+}
+.game-rating>.title {
+    width: 100%;
+    margin-left: 20px;
+    padding: 5px 0 10px;
+   background-color: #4e964400;
+    position: relative;
+    text-transform: uppercase;
+}
+.links {
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 5px;
+    background-color: #2e866c;
+     box-shadow: 0 0 4px #00ffa6;
+}
+.links a {
+    display: block;
+    padding: 10px 4px 15px;
+    min-width: 100px;
+    color: #262626;
+    font-size: 18px;
+    margin: 7px 4px;
+    border-top: 5px solid transparent;
+    background: url(../images/triangle.png) no-repeat;
+    background-position: center top -15px;
+    text-align: center;
+}
+.dark-theme~.wrapper, .dark-theme~#dle-content, .dark-theme~.wrapper .flex-stretch .content {
+    background: #2e866c;
+    box-shadow: 0 0 4px #00ffa6;
+    color: #bdbdbd; /* Букавки */
+    border-color: gray;
+}
+.dark-theme~.wrapper, .dark-theme~#dle-content, .dark-theme~.wrapper .flex-stretch .content {
+    background: #2e866c;
+    box-shadow: 0 0 4px #0073ff;
+    color: #c9bcbc; /* Тоже букавки */
+    border-color: #2e866c;
+}
+.horizontal-slider .title {
+    margin-left: 20px;
+    padding: 5px 0;
+    color: #0cd0bf;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 5;
+}
+.horizontal-slider {
+    width: 100%;
+    background-color: #2e866c;
+    box-shadow: 0 0 4px #0073ff;
+    white-space: nowrap;
+    color: #c9bcbc;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+.sidebar {
+    width: 320px;
+    float: right;
+    background-color: #2e866c;
+     box-shadow: 0 0 4px #0073ff;
+    padding: 5px 5px 0;
+    padding-top: 0;
+    box-sizing: border-box;
+}
+.dark-theme~.wrapper .sidebar {
+    background-color: #2e866c;
+}
+.dark-theme~.wrapper .sidebar .sidebar-title.lc_block, .dark-theme~.wrapper .sidebar .informer-sidebar-block .sidebar-title, .dark-theme~.wrapper .sidebar .sidebar-title .active, .dark-theme~.wrapper .sidebar .sidebar-block .block-container>div {
+    background: #2e866c;;
+}
+.dark-theme~.wrapper .sidebar .sidebar-title .inactive {
+    background: #4bd4ab;
+}
+.sidebar-title .inactive {
+    color: #7c7c7c;
+    cursor: pointer;
+}
+.dark-theme~.wrapper .sidebar .sidebar-block {
+    background: #2e866c;
+     box-shadow: 0 0 4px #0073ff;
+}
+.dark-theme~.wrapper .sidebar .chat .lc_area, .dark-theme~.wrapper .sidebar .chat .lc_chat_list .lc_chat_li {
+    border-color: #2e869f !important;
+}
+.dark-theme~.wrapper .sidebar .chat .lc_area, .dark-theme~.wrapper .sidebar .chat .lc_chat_list .lc_chat_li, .dark-theme~.wrapper .sidebar .chat .lc_textarea textarea, .dark-theme~.wrapper .sidebar .chat .lc_chat_li .title_quote {
+    background: #087c599c;
+     box-shadow: 0 0 4px #0073ff;
+    color: #bdbdbd!important;
+}
+.dark-theme~.wrapper .sidebar .chat .lc_area .lc_chat_list_area {
+    border-color: #3330;
+}
+.news .article .soc-panel {
+    position: absolute;
+    left: 0;
+    font-family: Arial,serif;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #5d66634f;
+    padding: 10px 0;
+}
+.game-rating {
+    background-color:#2e866c;
+     box-shadow: 0 0 4px #0073ff;
+    color: #000;
+}
+.dark-theme~.wrapper textarea, .dark-theme~#dle-content textarea, .dark-theme~.wrapper input, .dark-theme~#dle-content input, .dark-theme~.wrapper select, .dark-theme~#dle-content select, .dark-theme~.wrapper .bb-pane, .dark-theme~#dle-content .bb-pane, .dark-theme~.wrapper .full-story .full-story-content .add-news-inner {
+    background: #286b56 !important;
+    color: #bdbdbd!important;
+    border-color: gray;
+}
+.dark-theme~.wrapper .sidebar .chat .lc_chat_li:nth-child(2n) {
+    background: #5eb3938f!important;
+}
+.wcommunity_wrap {
+    background-color: #ff0000 !important; /*Я ни знат пачиму эта не меняца */
+}
+.bottom-block .game-block .category {
+    position: absolute;
+    right: 0;
+    top: 4px;
+    color: #fff;
+    background-color: #16bc9c;
+    padding: 3px 12px 5px;
+    font-size: 1.1em;
+}
+.bottom-block .game-block img {
+    width: 100%;
+    vertical-align: bottom;
+    height: 194px;
+    border-top: 5px solid #447796;
+    object-fit: cover;
+}
