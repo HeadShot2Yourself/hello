@@ -24,6 +24,23 @@ body {
     padding-bottom: 65px;
     padding-top: 40px;
 }
+.bottom-block .game-block img {
+    width: 100%;
+    vertical-align: bottom;
+    height: 194px;
+    border-top: 5px solid #16e5a2;
+    box-shadow: 0 0 4px #0073ff;
+    object-fit: cover;
+}
+.bottom-block .game-block .category {
+    position: absolute;
+    right: 0;
+    top: 4px;
+    color: #2c2b2b;
+    background-color: #16e5a2;
+    padding: 3px 12px 5px;
+    font-size: 1.1em;
+}
 .header .logo {
   filter: opacity(1.0) drop-shadow(0 0 0 #0000);
 }
